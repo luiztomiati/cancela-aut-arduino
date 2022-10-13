@@ -1,0 +1,3 @@
+# cancela-aut-arduino
+O projeto é uma cancela automática,  ao ser pressionar o botão a cancela é aberta e sinaliza com luz verde, após o carro passar o sensor de movimento fechará a cancela ativando a luz vermelha.
+Tem como função acionar um botão para que a cancela seja aberta, movendo a posição do servo de 0o para 90o e utilizando o sensor de movimento que ao detectar movimento a um certo ponto de distância, envia um sinal para o motor servo que é utilizado para movimentar a cancela. Quando o arduino recebe sinal do sensor de movimento ele muda a posição do servo de 90o para 0o fazendo com que feche a passagem automaticamente apenas utilizando programação.
